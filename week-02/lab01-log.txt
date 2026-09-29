@@ -1,0 +1,16 @@
+  487  which python3
+  488  man ls
+  489  MAN LS
+  490  man ls
+  491  cd cod
+  492  cd ..
+  493  cd cod
+  494  cd ..
+  495  cd cod
+  496  history
+  497  python3
+  498  pwd
+  499  cd documents
+  500  cd coding_cafe_plaksha
+  501  pwd
+  502  history > week02/lab01-log.txt

@@ -1,0 +1,13 @@
+Q1)pwd printed /Users/avi/documents, which is the full path of the folder I was currently in when I ran the command. It confirmed I was inside the documents folder, located directly under my home directory.
+
+Q2)ls -a showed hidden files that plain ls did not — specifically . (current directory), .. (parent directory), .DS_Store, and .localized. Any file or folder starting with a dot is hidden from normal ls
+   and only shows up with the -a flag.
+
+Q3)Looking at the line drwxr-xr-x@ 7 avi staff 224 25 Aug 19:59 coding_cafe_plaksha, the first column drwxr-xr-x shows the file type and permissions. The very first character, d, tells me it's a directory
+ (not a regular file). The rest — rwxr-xr-x — shows permissions in three groups of three: what the owner can do (rwx = read, write, execute), what the group can do (r-x = read and execute, no write),
+ and what everyone else can do (r-x = same as group).
+
+Q4)coding_cafe_plaksha/week-02 is a relative path — it's based on where I currently am, not the root of the filesystem. Since I was already in the documents folder, the shell could follow that path 
+directly without needing cd first.
+
+Q5)
