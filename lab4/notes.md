@@ -26,3 +26,17 @@ The first seven characters of my commit are `66ddf1f`. This is the short form of
 
 Q) Question 9
 The loop is: edit the files, check with `git status`, stage with `git add`, then save with `git commit` (and confirm with `git log --oneline`).
+Q) Question 10
+README.md gets a special name and location because GitHub looks for a file called README in the top folder and shows it as the front page of the repository. That makes it the project's shop window, so anyone who visits sees what the project is and who made it before opening anything else.
+
+Q) Question 11
+gh auth login logged me in to GitHub through the browser and saved an access token on my computer. It also set up Git to use that token, so pushes over HTTPS authenticate automatically and never ask for a password.
+
+Q) Question 12
+The front page shows my README.md rendered as formatted text: the Coding Café heading, my name and roll number, and the Contents list. GitHub shows the README there automatically because it treats it as the project's front page.
+
+Q) Question 13
+No. Pushing only copies my commits to GitHub. My local history is the same as before, and the only visible difference is the origin/main label that now appears next to the latest commit.
+
+Q) Question 14
+A private repository does exist on GitHub, but only people I give access to (me and the TAs) can see it. A repository that doesn't exist on GitHub means there is no online copy at all, only the one on my laptop. So private is about who can see it, not whether it exists.
